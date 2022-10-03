@@ -1,0 +1,71 @@
+/* 
+ANATOMIA 
+
+REGRA => (
+SELETOR
+ESCOPO 
+ATRIBUTOS
+)
+elemento(div ou p ou section){
+    corFuncdo: vermelhor;
+    tamanhodafont: 10px;
+}  
+
+*/
+
+/* 
+SELETORES 
+
+- NOME => Aplica uma regra para todos os elementos que tem esse nome 
+- CLASSE => aplica uma regra para todos os elementos que tem essa classe
+- ID => aplica uma regra para um unico elemento que tem o id
+
+*/
+
+/* p{
+    color: #fff;
+}
+
+section{
+    background-color: black;
+}
+a{
+    color: aquamarine;
+} */
+
+
+/* .secao{
+    border-bottom: solid 1px #ccc;
+}
+
+.secaoServicos{
+    border-bottom: none;
+}
+
+.secaoProdutos{
+    background-color: aliceblue;
+} */
+
+h1{
+
+    /* PROPRIEDADES TEXTO */
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight:100;
+    font-style:italic;
+    text-decoration:underline;
+    line-height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* PROPRIEDADES CAIXA */
+    background-color: black;
+    height: 200px;
+    width:200px;
+    border: solid 1px red;
+    margin:30px;
+    padding:20px;
+
+}
+
