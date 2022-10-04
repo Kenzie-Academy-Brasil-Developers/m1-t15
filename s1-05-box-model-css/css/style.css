@@ -1,0 +1,41 @@
+
+div{
+   
+    /* border: 10px solid; */
+    /* padding: 10px;
+    margin: 10px; */
+
+    /* margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px; */
+    /* Shorthand */
+    /* margin:10px 30px 40px 50px; */
+
+
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; */
+
+    height: 100px;
+    box-sizing: border-box;
+}
+header{
+
+    padding: 30px;
+}
+.coluna{
+    display: inline-block;
+    vertical-align: top;
+
+}
+ul{
+    margin: 0;
+    padding:0 20px;
+}
+ul li{
+    display: inline-block;
+}
+
+
