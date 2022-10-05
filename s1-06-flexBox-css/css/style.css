@@ -1,0 +1,54 @@
+/*
+--------------------------------------------
+ESTRUTURAÇÃO BASE 
+--------------------------------------------
+*** BODY
+**** TOPO
+**** RODAPÉ
+**** COPYRIGHT
+**** ESTILOS GERAIS PARA AS PÁGINAS
+**** PÁGINA INICIAL
+**** @MEDIA
+background-image: linear-gradient(rgb(25 1 122 / 79%), rgb(25 1 122 / 79%)),  url("./../img/imagemFundo.png");
+rgb(25 1 122 / 80%);
+*/
+
+
+/* ESTILOS GERAIS */
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+   
+}
+/* TOPO */
+/* FOOTER */
+/* PÁGINA INICIAL */
+
+.cabecalho{
+    padding: 28px 0;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cabecalho .logo{}
+.cabecalho img{}
+
+.cabecalho .menuNavegacao{
+    width: 100%;
+    padding: 0 44px;
+}
+.cabecalho ul{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.cabecalho ul li{
+    margin:0 20px;
+}
+.cabecalho ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+

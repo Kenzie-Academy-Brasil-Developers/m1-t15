@@ -1,0 +1,11 @@
+html, body, figure, img, div, section, article, input, select, button, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+     -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    list-style: none;
+    text-decoration: none;
+    color: #212529;
+}
