@@ -1,0 +1,140 @@
+/*
+--------------------------------------------
+ESTRUTURAÇÃO BASE 
+--------------------------------------------
+*** BODY
+**** TOPO
+**** RODAPÉ
+**** COPYRIGHT
+**** ESTILOS GERAIS PARA AS PÁGINAS
+**** PÁGINA INICIAL
+**** @MEDIA
+
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+
+/* ESTILOS GERAIS */
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.container-medio{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+h1,h2,h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+   
+}
+
+/* TOPO */
+.cabecalho{
+    padding: 15px 0;
+    border: 1px solid #C0C0C0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cabecalho .container{
+    display: flex;
+}
+.cabecalho .logo{
+    width: 100%;
+    max-width: 295px;
+}
+.cabecalho img{}
+
+.cabecalho .menuNavegacao{
+    width: 100%;
+}
+.cabecalho ul{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.cabecalho ul li{
+    margin:0 20px;
+}
+.cabecalho ul li a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho ul li a:hover{
+    color:#0000FF;
+}
+/* FOOTER */
+/* PÁGINA INICIAL */
+main{}
+
+.secaoPosts{
+    padding: 30px;
+}
+.secaoPosts h1{
+    text-transform: uppercase;
+}
+.secaoPosts .lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secaoPosts .lista .post{
+    width: 350px;
+    min-height: 335px;
+    background-color: #eaeaea;
+    border-radius: 16px;
+    margin-bottom: 30px;
+}
+.secaoPosts .lista .post a{}
+.secaoPosts .lista .post img{
+    display: block;
+    width: 100%;
+    height: 164px;
+    margin-bottom: 39px;
+    border-radius: 16px 16px 0px 0px;
+    object-fit: cover;
+}
+.secaoPosts .lista .post h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D2D2D;
+    max-width: 285px;
+    margin: 0 auto;
+    /* 
+        text-overflow: ;
+        https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-overflow
+    */
+  
+}
+.secaoPosts .lista .post span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #2D2D2D;
+    max-width: 285px;
+    margin: 10px auto 30px;
+    display: block;
+}
+
+/* PÁGINA DE POST */
+.pg-post{}
+.pg-post article{}
+.pg-post article header{}
+.pg-post article section{}
+.pg-post article p{}
+.pg-post article h1{}
+.pg-post article h2{}
+.pg-post article strong{}
+.pg-post article a{}
+.pg-post article figure{}
+.pg-post article img{}
+.pg-post article figcaption{}
+.pg-post article ul{}
+.pg-post article ul li{}
+
