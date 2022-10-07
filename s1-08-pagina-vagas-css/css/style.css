@@ -1,0 +1,113 @@
+/*
+--------------------------------------------
+ESTRUTURAÇÃO BASE 
+--------------------------------------------
+*** BODY
+**** TOPO
+**** RODAPÉ
+**** COPYRIGHT
+**** ESTILOS GERAIS PARA AS PÁGINAS
+**** PÁGINA INICIAL
+**** @MEDIA
+
+background-image: url("./../img/imagemFundo.png"); 
+background-image: linear-gradient(rgb(25 1 122 / 79%), rgb(25 1 122 / 79%)),  url("./../img/imagemFundo.png");
+
+font-family: 'JetBrains Mono', monospace;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* ESTILOS GERAIS */
+.btn{}
+.container{
+    width: 100%;
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+div.row{
+    display: flex;
+}
+div.col{
+    background-color: blue;
+    height: 300px;
+    width: 60%;
+}
+div.col ~ div.col{
+    background-color: red;
+    width: 40%;
+}
+
+
+/* TOPO */
+.cabecalho{
+    /* background: url("./../img/imagemFundo.png"); */
+    background-position: center;
+    background-size: cover;
+    /* background-color: rgb(25 1 122 / 79%); */
+    height: 562px;
+    background-image: linear-gradient(rgb(25 1 122 / 79%), rgb(25 1 122 / 79%)),  url("./../img/imagemFundo.png");
+}
+/* .cabecalho .sombra{
+    padding-top:54px;
+    background: rgb(3 23 125 / 84%);
+    height: 100%;
+} */
+.cabecalho .cabecalho__logo{
+    margin-bottom: 59px;
+}
+.cabecalho .cabecalho__descricao{}
+.cabecalho .cabecalho__descricao h1{
+    font-weight: 600;
+    font-size: 48px;
+    color: #DEE2E6;
+    margin-bottom: 32px;
+}
+.cabecalho .cabecalho__descricao p{
+    color: #DEE2E6;
+    margin-bottom: 10px;
+}
+
+.cabecalho .cabecalho__descricao strong{}
+.cabecalho .cabecalho__descricao a{
+    background: #BC00FF;
+    display: block;
+    border: 2px solid #BC00FF;
+    border-radius: 8px;
+    width: 296px;
+    height: 48px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+/* FOOTER */
+/* PÁGINA INICIAL */
+/* PÁGINA DE POST */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
