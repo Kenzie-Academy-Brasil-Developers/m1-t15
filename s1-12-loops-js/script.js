@@ -3,6 +3,8 @@
 //while
 //for
 
+
+
 //inicialização => contador  = 0
 //condicional => 0 < 10 
 //incremento => contador++ 

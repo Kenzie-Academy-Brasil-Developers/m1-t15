@@ -1,0 +1,7 @@
+cont;cont++;console.log(cont);cont > 5
+1;1;1;true
+2;2;2;false
+3;3;3;
+;;;
+;;;
+;;;
