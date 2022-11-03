@@ -1,0 +1,12 @@
+img{
+    max-width: 120px;
+    border:1px solid green;
+}
+
+.cavalos{
+    border:2px solid red;
+}
+
+#horses{
+    border: 3px solid yellow
+}
