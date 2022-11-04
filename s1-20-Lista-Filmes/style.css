@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    width: 50%;
+    padding: 10px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.lista-filmes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.filme{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 20px;
+    background: #e3e3e3;
+    border-radius: 20px;
+    border: 2px solid #001e32;
+    color: #001e32;
+}
+
+.capa{
+    width: 205px;
+}
+
+.filme-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filme-header h2{
+    margin-bottom: 5px;;
+}
+
+.infos{
+    margin-top: 0;
+}
+
+.sinopse{
+    width: 600px;
+}
+
+.categorias{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.categorias li{
+    background-color: #001e32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
