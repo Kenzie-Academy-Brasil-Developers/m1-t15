@@ -36,7 +36,7 @@ const filmes = [
         anoLancamento: 2004,
         avaliacao: 8.3,
         duracao: "1h 48min",
-        instrutor: "Willian",
+        instrutor: "William",
         categorias: ["Drama", "Romance", "Ficção Científica"]
     },
     {
