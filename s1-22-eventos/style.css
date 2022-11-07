@@ -1,0 +1,13 @@
+a{
+    background: green;
+}
+
+.hint{
+    background: yellow;
+    margin:0;
+}   
+
+#wrap{
+    background: red;
+    padding: 10px;
+}
