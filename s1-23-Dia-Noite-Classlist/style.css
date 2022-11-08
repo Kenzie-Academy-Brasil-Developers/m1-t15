@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.sky{
+    background-color: #7cd9ff;
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    transition: 1s;
+}
+
+.night{
+    background-color: #2e4482;
+}
+
+.middle, .side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.middle{
+    width: 35%;
+}
+
+.side{
+    width: 32.5%;
+}
+
+.sun{
+    position: absolute;
+    transition: 1s;
+}
+
+.night .sun{
+    transform: translateY(-100vh);
+}
+
+.moon{
+    width: 50%;
+    position: absolute;
+    transition: 1s;
+    transform: translateY(100vh);
+}
+
+.night .moon{
+    transform: translateY(0);
+}
+
+.left-cloud, .right-cloud{
+    position: absolute;
+    transition: 1s;
+}
+
+.night .left-cloud{
+    transform: translateX(-50vw);
+}
+
+.left-stars{
+    width: 75%;
+    position: absolute;
+    transition: 1s;
+    transform: translateX(-50vw);
+}
+
+.night .left-stars{
+    transform: translateX(0);
+}
+
+.right-stars{
+    width: 75%;
+    position: absolute;
+    transition: 1s;
+    transform: translateX(50vw);
+}
+
+.night .right-cloud{
+    transform: translateX(50vw);
+}
+
+.night .right-stars{
+    transform: translateX(0);
+}
+
+.button{
+    position: absolute;
+    bottom: 30px;
+    padding: 10px 0;
+    background-color: #fee45a;
+    border: 3px solid #e7c204;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+    width: 35%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.night .button{
+    background-color: #e7e7e7;
+    border-color: #bfbfbf;
+}
