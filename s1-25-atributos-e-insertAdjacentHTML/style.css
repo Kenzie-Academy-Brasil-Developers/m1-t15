@@ -1,0 +1,16 @@
+#pai{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+p{
+    text-align: center;
+    background: #00aaaaaa;
+}
+
+.padrao{
+    background: #0000aaaa;
+}
